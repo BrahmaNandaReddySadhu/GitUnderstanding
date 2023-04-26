@@ -14,8 +14,12 @@ public class DriverInitialiazaion {
                 break;
             case "firefox":
                 driver = new FirefoxDriver();
+                break;
+            case "edge":
+                driver= new EdgeDriver();
+                break;
             default:
-                driver = new EdgeDriver();
+                System.out.println("supported browsers are chrome,firefox,edge");
         }
         return driver;
     }
