@@ -26,5 +26,6 @@ public class Test {
     @org.testng.annotations.Test
     public void thirdCommit() throws InterruptedException {
      System.out.println("Developer 1: Changes done in Remote repository");
+      System.out.println("Developer 2: Remote changes ");
     }
 }
