@@ -22,4 +22,9 @@ public class Test {
         Thread.sleep(5000);
         driver.close();
     }
+
+    @org.testng.annotations.Test
+    public void thirdCommit() throws InterruptedException {
+
+    }
 }
